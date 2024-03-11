@@ -33,7 +33,7 @@ const CalculatorUseReducer = () => {
           </div>
           <div className="form-group">
             <label htmlFor="number2" className="fom-label">
-              Number 1
+              Number 2
             </label>
             <input id="number2" type="number" className="form-input" value={state.number2} onChange={(e) => handleNumberChange(e)} />
           </div>
